@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab97eb3-26af-4426-86fd-b1a558d9eb5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/boostshore/DogScannerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/boostshore/DogScannerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/boostshore/ConversationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/boostshore/ConversationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/boostshore/ConversationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
-              <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+            <state relative-caret-position="91">
+              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -77,10 +75,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1635" />
-    <option name="y" value="142" />
-    <option name="width" value="1428" />
-    <option name="height" value="806" />
+    <option name="x" value="1631" />
+    <option name="y" value="84" />
+    <option name="width" value="1375" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575582391071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575585261808" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -182,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ConversationTest.test2">
+  <component name="RunManager" selected="TestNG.ConversationTest.test1">
     <configuration name="mobileScript2 []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -287,8 +285,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ConversationTest.test2" />
         <item itemvalue="TestNG.ConversationTest.test1" />
+        <item itemvalue="TestNG.ConversationTest.test2" />
         <item itemvalue="TestNG.DogScannerTest.test1" />
         <item itemvalue="TestNG.DogScannerTest.test2" />
       </list>
@@ -304,23 +302,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575520579432</updated>
-      <workItem from="1575520586010" duration="10458000" />
+      <workItem from="1575520586010" duration="13084000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DogScannerTest_test2 - 2019.12.04 at 22h 07m 36s.xml">
-      <configuration name="DogScannerTest.test2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DogScannerTest_test1 - 2019.12.05 at 00h 22m 18s.xml">
-      <configuration name="DogScannerTest.test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ConversationTest_test1 - 2019.12.05 at 07h 48m 10s.xml">
-      <configuration name="ConversationTest.test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ConversationTest_test1 - 2019.12.05 at 08h 18m 41s.xml">
-      <configuration name="ConversationTest.test1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ConversationTest_test1 - 2019.12.05 at 08h 19m 24s.xml">
       <configuration name="ConversationTest.test1" configurationId="TestNG" />
     </history-entry>
@@ -330,19 +316,40 @@
     <history-entry file="ConversationTest_test1 - 2019.12.05 at 13h 43m 59s.xml">
       <configuration name="ConversationTest.test1" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ConversationTest_test2 - 2019.12.05 at 13h 47m 26s.xml">
+      <configuration name="ConversationTest.test2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConversationTest_test1 - 2019.12.05 at 14h 06m 22s.xml">
+      <configuration name="ConversationTest.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConversationTest_test1 - 2019.12.05 at 14h 06m 44s.xml">
+      <configuration name="ConversationTest.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConversationTest_test1 - 2019.12.05 at 14h 09m 27s.xml">
+      <configuration name="ConversationTest.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConversationTest_test1 - 2019.12.05 at 14h 13m 06s.xml">
+      <configuration name="ConversationTest.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConversationTest_test1 - 2019.12.05 at 14h 17m 34s.xml">
+      <configuration name="ConversationTest.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConversationTest_test1 - 2019.12.05 at 14h 28m 59s.xml">
+      <configuration name="ConversationTest.test1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10458000" />
+    <option name="totallyTimeSpent" value="13084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1635" y="142" width="1428" height="806" extended-state="0" />
+    <frame x="1689" y="99" width="1375" height="877" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21356422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22205551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.33054394" />
@@ -353,7 +360,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.34728032" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3347339" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43821657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,6 +378,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/boostshore/ConversationTest.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/boostshore/test1">
@@ -420,8 +439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/boostshore/ConversationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="91">
+          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
         </state>
       </provider>
     </entry>

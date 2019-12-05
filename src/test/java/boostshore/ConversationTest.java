@@ -23,6 +23,9 @@ public class ConversationTest{
 
     private IOSDriver<MobileElement> driver;
     //open/closeMac gsk-ecoutez-button-gray-circle
+    // acc id Clear text
+
+
     //t4 thank you order food.wav   //tc6十分钟.wav
     //t5 order qingjiang pork.wav   //tc7上齐了.wav
     //t6 spicy is prefered.wav      //tc8肉丝.wav
@@ -54,38 +57,50 @@ public class ConversationTest{
     }
     @Test
     public void test1() throws IOException, InterruptedException{
-        
+        //System.out.println("In test1");
+        //Thread.sleep(3000);
+
         String fileRoot = "/Users/yang/Documents/tools/OneDrive - Tesla/CMPE 287 Testing/";
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElementByAccessibilityId("ConversationButton").click();
         //driver.findElement(MobileBy.name("DictationInputButton")).click();
-        Thread.sleep(1500);
-        
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+
         String voiceFile  = fileRoot + "t8 what lunch.wav";
 
         playAudio(voiceFile);
-        String ca2 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
-        driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
+        //String ca2 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
+        //driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
 
-        Thread.sleep(1500);
         playAudio(fileRoot + "tc8肉丝.wav");
-        String ca3 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
+        //String ca3 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
 
-        driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
-        Thread.sleep(1500);
+        //driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
         playAudio(fileRoot + "t9 bean paste buns2.wav");
-        String ca4 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
+        //String ca4 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
 
-        driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
-        Thread.sleep(1500);
+        //driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+        //Thread.sleep(3000);
         playAudio(fileRoot + "tc9三明治.wav");
-        String ca5 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
+        //String ca5 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
 
-        driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
-        Thread.sleep(1500);
+        //driver.findElementByAccessibilityId("gsk-ecoutez-button-gray-circle").click();
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+        //Thread.sleep(3000);
         playAudio(fileRoot + "t10 boiled fish.wav");
-        String ca6 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
+        //String ca6 = driver.findElement(MobileBy.AccessibilityId("InputTextView")).getText();
 
         // MobileElement chinese = driver.findElement(MobileBy.AccessibilityId("InputTextView"));
         // System.out.println("English: " + chinese.getText());
