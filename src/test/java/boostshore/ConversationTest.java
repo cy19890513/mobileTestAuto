@@ -114,6 +114,82 @@ public class ConversationTest{
     }
 
     @Test
+    public void conv_test2() throws IOException, InterruptedException{
+
+        String fileRoot = "/Users/yang/Documents/tools/OneDrive - Tesla/CMPE 287 Testing/";
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElementByAccessibilityId("ConversationButton").click();
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+
+        playAudio(fileRoot + "tc3很高兴见到你.wav");
+        
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "t3 i am very happy.wav");
+
+    }
+
+    @Test
+    public void conv_test3() throws IOException, InterruptedException{
+
+        String fileRoot = "/Users/yang/Documents/tools/OneDrive - Tesla/CMPE 287 Testing/";
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElementByAccessibilityId("ConversationButton").click();
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+
+        playAudio(fileRoot + "tc4欢迎.wav");
+        
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "t4 thank you order food.wav");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "tc5菜单.wav");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "t5 order qingjiang pork.wav");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "tc6十分钟.wav");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "t6 spicy is prefered.wav");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "tc7上齐了.wav");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        if(driver.findElementsByAccessibilityId("Clear text").size() >0)
+            driver.findElementByAccessibilityId("Clear text").click();
+
+        playAudio(fileRoot + "t7 not bad.wav");
+    }
+
+
+    @Test
     public void test2() throws IOException, InterruptedException {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(MobileBy.name("DictationInputButton")).click();
